@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D900ADDD201A477D00748D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D900ADDC201A477D00748D8C /* main.m */; };
+		D900ADE0201A477D00748D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D900ADDF201A477D00748D8C /* AppDelegate.m */; };
+		D900ADE3201A477D00748D8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D900ADE2201A477D00748D8C /* ViewController.m */; };
+		D900ADE6201A477D00748D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D900ADE4201A477D00748D8C /* Main.storyboard */; };
+		D900ADE8201A477D00748D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D900ADE7201A477D00748D8C /* Assets.xcassets */; };
+		D900ADEB201A477D00748D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D900ADE9201A477D00748D8C /* LaunchScreen.storyboard */; };
+		D900ADF6201A477D00748D8C /* QuoteGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D900ADF5201A477D00748D8C /* QuoteGenTests.m */; };
+		D900AE01201A477D00748D8C /* QuoteGenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D900AE00201A477D00748D8C /* QuoteGenUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D900ADF2201A477D00748D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D900ADD0201A477C00748D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D900ADD7201A477C00748D8C;
+			remoteInfo = QuoteGen;
+		};
+		D900ADFD201A477D00748D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D900ADD0201A477C00748D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D900ADD7201A477C00748D8C;
+			remoteInfo = QuoteGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D900ADD8201A477D00748D8C /* QuoteGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D900ADDC201A477D00748D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D900ADDE201A477D00748D8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D900ADDF201A477D00748D8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D900ADE1201A477D00748D8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D900ADE2201A477D00748D8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D900ADE5201A477D00748D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D900ADE7201A477D00748D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D900ADEA201A477D00748D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D900ADEC201A477D00748D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D900ADF1201A477D00748D8C /* QuoteGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D900ADF5201A477D00748D8C /* QuoteGenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteGenTests.m; sourceTree = "<group>"; };
+		D900ADF7201A477D00748D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D900ADFC201A477D00748D8C /* QuoteGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D900AE00201A477D00748D8C /* QuoteGenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteGenUITests.m; sourceTree = "<group>"; };
+		D900AE02201A477D00748D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D900ADD5201A477C00748D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D900ADEE201A477D00748D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D900ADF9201A477D00748D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D900ADCF201A477C00748D8C = {
+			isa = PBXGroup;
+			children = (
+				D900ADDA201A477D00748D8C /* QuoteGen */,
+				D900ADF4201A477D00748D8C /* QuoteGenTests */,
+				D900ADFF201A477D00748D8C /* QuoteGenUITests */,
+				D900ADD9201A477D00748D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D900ADD9201A477D00748D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D900ADD8201A477D00748D8C /* QuoteGen.app */,
+				D900ADF1201A477D00748D8C /* QuoteGenTests.xctest */,
+				D900ADFC201A477D00748D8C /* QuoteGenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D900ADDA201A477D00748D8C /* QuoteGen */ = {
+			isa = PBXGroup;
+			children = (
+				D900ADDE201A477D00748D8C /* AppDelegate.h */,
+				D900ADDF201A477D00748D8C /* AppDelegate.m */,
+				D900ADE1201A477D00748D8C /* ViewController.h */,
+				D900ADE2201A477D00748D8C /* ViewController.m */,
+				D900ADE4201A477D00748D8C /* Main.storyboard */,
+				D900ADE7201A477D00748D8C /* Assets.xcassets */,
+				D900ADE9201A477D00748D8C /* LaunchScreen.storyboard */,
+				D900ADEC201A477D00748D8C /* Info.plist */,
+				D900ADDB201A477D00748D8C /* Supporting Files */,
+			);
+			path = QuoteGen;
+			sourceTree = "<group>";
+		};
+		D900ADDB201A477D00748D8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D900ADDC201A477D00748D8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D900ADF4201A477D00748D8C /* QuoteGenTests */ = {
+			isa = PBXGroup;
+			children = (
+				D900ADF5201A477D00748D8C /* QuoteGenTests.m */,
+				D900ADF7201A477D00748D8C /* Info.plist */,
+			);
+			path = QuoteGenTests;
+			sourceTree = "<group>";
+		};
+		D900ADFF201A477D00748D8C /* QuoteGenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D900AE00201A477D00748D8C /* QuoteGenUITests.m */,
+				D900AE02201A477D00748D8C /* Info.plist */,
+			);
+			path = QuoteGenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D900ADD7201A477C00748D8C /* QuoteGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D900AE05201A477D00748D8C /* Build configuration list for PBXNativeTarget "QuoteGen" */;
+			buildPhases = (
+				D900ADD4201A477C00748D8C /* Sources */,
+				D900ADD5201A477C00748D8C /* Frameworks */,
+				D900ADD6201A477C00748D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuoteGen;
+			productName = QuoteGen;
+			productReference = D900ADD8201A477D00748D8C /* QuoteGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D900ADF0201A477D00748D8C /* QuoteGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D900AE08201A477D00748D8C /* Build configuration list for PBXNativeTarget "QuoteGenTests" */;
+			buildPhases = (
+				D900ADED201A477D00748D8C /* Sources */,
+				D900ADEE201A477D00748D8C /* Frameworks */,
+				D900ADEF201A477D00748D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D900ADF3201A477D00748D8C /* PBXTargetDependency */,
+			);
+			name = QuoteGenTests;
+			productName = QuoteGenTests;
+			productReference = D900ADF1201A477D00748D8C /* QuoteGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D900ADFB201A477D00748D8C /* QuoteGenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D900AE0B201A477D00748D8C /* Build configuration list for PBXNativeTarget "QuoteGenUITests" */;
+			buildPhases = (
+				D900ADF8201A477D00748D8C /* Sources */,
+				D900ADF9201A477D00748D8C /* Frameworks */,
+				D900ADFA201A477D00748D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D900ADFE201A477D00748D8C /* PBXTargetDependency */,
+			);
+			name = QuoteGenUITests;
+			productName = QuoteGenUITests;
+			productReference = D900ADFC201A477D00748D8C /* QuoteGenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D900ADD0201A477C00748D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "William Kenrick";
+				TargetAttributes = {
+					D900ADD7201A477C00748D8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D900ADF0201A477D00748D8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D900ADD7201A477C00748D8C;
+					};
+					D900ADFB201A477D00748D8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D900ADD7201A477C00748D8C;
+					};
+				};
+			};
+			buildConfigurationList = D900ADD3201A477C00748D8C /* Build configuration list for PBXProject "QuoteGen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D900ADCF201A477C00748D8C;
+			productRefGroup = D900ADD9201A477D00748D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D900ADD7201A477C00748D8C /* QuoteGen */,
+				D900ADF0201A477D00748D8C /* QuoteGenTests */,
+				D900ADFB201A477D00748D8C /* QuoteGenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D900ADD6201A477C00748D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D900ADEB201A477D00748D8C /* LaunchScreen.storyboard in Resources */,
+				D900ADE8201A477D00748D8C /* Assets.xcassets in Resources */,
+				D900ADE6201A477D00748D8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D900ADEF201A477D00748D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D900ADFA201A477D00748D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D900ADD4201A477C00748D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D900ADE3201A477D00748D8C /* ViewController.m in Sources */,
+				D900ADE0201A477D00748D8C /* AppDelegate.m in Sources */,
+				D900ADDD201A477D00748D8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D900ADED201A477D00748D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D900ADF6201A477D00748D8C /* QuoteGenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D900ADF8201A477D00748D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D900AE01201A477D00748D8C /* QuoteGenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D900ADF3201A477D00748D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D900ADD7201A477C00748D8C /* QuoteGen */;
+			targetProxy = D900ADF2201A477D00748D8C /* PBXContainerItemProxy */;
+		};
+		D900ADFE201A477D00748D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D900ADD7201A477C00748D8C /* QuoteGen */;
+			targetProxy = D900ADFD201A477D00748D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D900ADE4201A477D00748D8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D900ADE5201A477D00748D8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D900ADE9201A477D00748D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D900ADEA201A477D00748D8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D900AE03201A477D00748D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D900AE04201A477D00748D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D900AE06201A477D00748D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuoteGen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Kenrick.QuoteGen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D900AE07201A477D00748D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuoteGen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Kenrick.QuoteGen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D900AE09201A477D00748D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuoteGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Kenrick.QuoteGenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuoteGen.app/QuoteGen";
+			};
+			name = Debug;
+		};
+		D900AE0A201A477D00748D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuoteGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Kenrick.QuoteGenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuoteGen.app/QuoteGen";
+			};
+			name = Release;
+		};
+		D900AE0C201A477D00748D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuoteGenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Kenrick.QuoteGenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuoteGen;
+			};
+			name = Debug;
+		};
+		D900AE0D201A477D00748D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuoteGenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Kenrick.QuoteGenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuoteGen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D900ADD3201A477C00748D8C /* Build configuration list for PBXProject "QuoteGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D900AE03201A477D00748D8C /* Debug */,
+				D900AE04201A477D00748D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D900AE05201A477D00748D8C /* Build configuration list for PBXNativeTarget "QuoteGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D900AE06201A477D00748D8C /* Debug */,
+				D900AE07201A477D00748D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D900AE08201A477D00748D8C /* Build configuration list for PBXNativeTarget "QuoteGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D900AE09201A477D00748D8C /* Debug */,
+				D900AE0A201A477D00748D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D900AE0B201A477D00748D8C /* Build configuration list for PBXNativeTarget "QuoteGenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D900AE0C201A477D00748D8C /* Debug */,
+				D900AE0D201A477D00748D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D900ADD0201A477C00748D8C /* Project object */;
+}
