@@ -15,6 +15,7 @@
 		D900ADEB201A477D00748D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D900ADE9201A477D00748D8C /* LaunchScreen.storyboard */; };
 		D900ADF6201A477D00748D8C /* QuoteGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D900ADF5201A477D00748D8C /* QuoteGenTests.m */; };
 		D900AE01201A477D00748D8C /* QuoteGenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D900AE00201A477D00748D8C /* QuoteGenUITests.m */; };
+		D93C7119201A5BDE0049E6CE /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93C7118201A5BDE0049E6CE /* quotes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D900ADFC201A477D00748D8C /* QuoteGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D900AE00201A477D00748D8C /* QuoteGenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteGenUITests.m; sourceTree = "<group>"; };
 		D900AE02201A477D00748D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93C7118201A5BDE0049E6CE /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				D900ADE9201A477D00748D8C /* LaunchScreen.storyboard */,
 				D900ADEC201A477D00748D8C /* Info.plist */,
 				D900ADDB201A477D00748D8C /* Supporting Files */,
+				D93C7118201A5BDE0049E6CE /* quotes.plist */,
 			);
 			path = QuoteGen;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				D900ADEB201A477D00748D8C /* LaunchScreen.storyboard in Resources */,
 				D900ADE8201A477D00748D8C /* Assets.xcassets in Resources */,
 				D900ADE6201A477D00748D8C /* Main.storyboard in Resources */,
+				D93C7119201A5BDE0049E6CE /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				D900AE07201A477D00748D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D900AE08201A477D00748D8C /* Build configuration list for PBXNativeTarget "QuoteGenTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				D900AE0A201A477D00748D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D900AE0B201A477D00748D8C /* Build configuration list for PBXNativeTarget "QuoteGenUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				D900AE0D201A477D00748D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
